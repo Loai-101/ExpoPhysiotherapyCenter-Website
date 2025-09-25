@@ -196,6 +196,36 @@
   display: none;
 }
 
+/* iPad Specific Fixes */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-container {
+    padding: 0 2rem;
+    height: 80px;
+  }
+  
+  .header-title {
+    font-size: 1rem;
+  }
+  
+  .header-logo-image {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .header-nav {
+    gap: 1.5rem;
+  }
+  
+  .header-nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .language-switcher {
+    font-size: 0.9rem;
+  }
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .header-container {

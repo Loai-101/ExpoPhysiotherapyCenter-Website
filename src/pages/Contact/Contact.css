@@ -524,6 +524,64 @@
   box-shadow: 0 2px 8px rgba(156, 39, 176, 0.2);
 }
 
+/* iPad Specific Fixes for Contact Hero */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-hero {
+    min-height: 55vh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
+  .contact-hero-container {
+    padding-bottom: 3rem;
+  }
+  
+  .contact-hero-title {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 1rem 0 !important;
+  }
+  
+  .contact-hero-description {
+    font-size: 1.1rem !important;
+    margin: 0 0 2rem 0 !important;
+    line-height: 1.5 !important;
+  }
+  
+  .contact-hero-button-primary,
+  .contact-hero-button-secondary {
+    padding: 0.8rem 1.5rem !important;
+    font-size: 1rem !important;
+    min-width: 160px !important;
+  }
+}
+
+/* Laptop Specific Fixes - Make text smaller */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .contact-hero-title {
+    font-size: 1.8rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.8rem 0 !important;
+  }
+  
+  .contact-hero-description {
+    font-size: 0.95rem !important;
+    margin: 0 0 1.5rem 0 !important;
+    line-height: 1.4 !important;
+  }
+  
+  .contact-hero-button-primary,
+  .contact-hero-button-secondary {
+    padding: 0.7rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    min-width: 140px !important;
+  }
+  
+  .contact-hero-container {
+    padding-bottom: 2.5rem;
+  }
+}
+
 /* Responsive design for contact hero */
 @media (max-width: 768px) {
   .contact-hero {

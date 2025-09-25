@@ -207,6 +207,64 @@
   }
 }
 
+/* iPad Specific Fixes for Hero */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .services-hero {
+    min-height: 55vh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
+  .services-hero-container {
+    padding-bottom: 3rem;
+  }
+  
+  .services-hero-title {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 1rem 0 !important;
+  }
+  
+  .services-hero-description {
+    font-size: 1.1rem !important;
+    margin: 0 0 2rem 0 !important;
+    line-height: 1.5 !important;
+  }
+  
+  .services-hero-button-primary,
+  .services-hero-button-secondary {
+    padding: 0.8rem 1.5rem !important;
+    font-size: 1rem !important;
+    min-width: 160px !important;
+  }
+}
+
+/* Laptop Specific Fixes - Make text smaller */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .services-hero-title {
+    font-size: 1.8rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.8rem 0 !important;
+  }
+  
+  .services-hero-description {
+    font-size: 0.95rem !important;
+    margin: 0 0 1.5rem 0 !important;
+    line-height: 1.4 !important;
+  }
+  
+  .services-hero-button-primary,
+  .services-hero-button-secondary {
+    padding: 0.7rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    min-width: 140px !important;
+  }
+  
+  .services-hero-container {
+    padding-bottom: 2.5rem;
+  }
+}
+
 /* Responsive Design for Hero */
 @media (max-width: 768px) {
   .services-hero {
@@ -1530,6 +1588,52 @@
   text-overflow: ellipsis;
   display: block !important;
   visibility: visible !important;
+}
+
+/* iPad Specific Fixes */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .doctors-title {
+    font-size: 1.1rem !important;
+    margin: 0 0 1rem 0 !important;
+    text-align: center !important;
+  }
+  
+  .doctors-grid {
+    gap: 1.2rem;
+  }
+  
+  .doctor-card-new {
+    padding: 1.3rem;
+    gap: 1.2rem;
+    min-height: 110px;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .doctor-avatar-new {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+  }
+  
+  .doctor-content-new {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .doctor-name-new {
+    font-size: 1.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .doctor-specialty-new {
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 /* Responsive Design */
