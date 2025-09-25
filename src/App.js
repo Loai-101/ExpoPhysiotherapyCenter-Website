@@ -70,7 +70,7 @@ function AppContent() {
       {isLoading && <LoadingScreen fadeOut={isFadingOut} />}
       {!isLoading && (
         <div className="App">
-          {location.pathname !== '/faq' && location.pathname !== '/appointment' && <SocialSidebar />}
+          {location.pathname !== '/faq' && location.pathname !== '/appointment' && location.pathname !== '/services' && location.pathname !== '/' && location.pathname !== '/contact' && location.pathname !== '/team' && <SocialSidebar />}
           <Header />
           <main className="main-content content-visible">
             <Routes>

@@ -320,11 +320,15 @@
   }
 
   .appointment-form-title {
-    font-size: 2rem;
+    font-size: 1.4rem !important;
+    line-height: 1.1 !important;
+    margin-bottom: 0.8rem !important;
   }
 
   .appointment-form-subtitle {
-    font-size: 1rem;
+    font-size: 0.9rem !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.4 !important;
   }
 
   .form-row {
@@ -356,11 +360,15 @@
   }
 
   .appointment-form-title {
-    font-size: 1.8rem;
+    font-size: 1.2rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.6rem !important;
   }
 
   .appointment-form-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.8rem !important;
+    margin-bottom: 1.2rem !important;
+    line-height: 1.3 !important;
   }
 
   .sidebar-section {
@@ -379,8 +387,8 @@
   }
 
   .form-submit-button {
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
+    padding: 0.6rem 1rem !important;
+    font-size: 0.8rem !important;
   }
 
   .contact-method {
@@ -399,5 +407,25 @@
     font-size: 0.9rem;
     padding: 0.5rem 0;
     padding-left: 1.2rem;
+  }
+}
+
+/* Very small mobile devices */
+@media (max-width: 360px) {
+  .appointment-form-title {
+    font-size: 1rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .appointment-form-subtitle {
+    font-size: 0.75rem !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .form-submit-button {
+    padding: 0.5rem 0.8rem !important;
+    font-size: 0.75rem !important;
   }
 }

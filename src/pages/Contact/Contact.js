@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { FaInstagram, FaFacebook, FaWhatsapp, FaEnvelope, FaYoutube } from 'react-icons/fa';
+import { FaTiktok } from 'react-icons/fa6';
 import './Contact.css';
 
 const Contact = () => {
@@ -125,16 +127,79 @@ const Contact = () => {
           </video>
         </div>
         <div className="contact-hero-overlay"></div>
-        <div className="contact-hero-content">
-          <h1 className="contact-hero-title">{content[language].heroTitle}</h1>
-          <p className="contact-hero-description">{content[language].heroDescription}</p>
-          <div className="contact-hero-buttons">
-            <a href="tel:+97313630665" className="contact-hero-button-primary">
-              {content[language].heroButton1}
-            </a>
-            <a href="https://wa.me/97332260665" className="contact-hero-button-secondary">
-              {content[language].heroButton2}
-            </a>
+        <div className="contact-hero-container">
+          <div className={`contact-hero-content ${language === 'ar' ? 'rtl' : 'ltr'}`}>
+            <h1 className="contact-hero-title">{content[language].heroTitle}</h1>
+            <p className="contact-hero-description">{content[language].heroDescription}</p>
+            <div className="contact-hero-buttons">
+              <a href="tel:+97313630665" className="contact-hero-button-primary">
+                {content[language].heroButton1}
+              </a>
+              <a href="https://wa.me/97332260665" className="contact-hero-button-secondary">
+                {content[language].heroButton2}
+              </a>
+            </div>
+            
+            {/* Social Media Icons */}
+            <div className="contact-social-icons">
+              <a 
+                href="https://www.instagram.com/expo_physiotherapy_bh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-icon"
+                title="Follow us on Instagram"
+              >
+                <FaInstagram />
+              </a>
+              
+              <a 
+                href="https://www.facebook.com/profile.php?id=61552938691116&sk=photos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-icon"
+                title="Follow us on Facebook"
+              >
+                <FaFacebook />
+              </a>
+              
+              <a 
+                href="https://www.youtube.com/@expophysiotherapy/shorts"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-icon"
+                title="Subscribe to our YouTube channel"
+              >
+                <FaYoutube />
+              </a>
+              
+              <a 
+                href="https://www.tiktok.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-icon"
+                title="Follow us on TikTok"
+              >
+                <FaTiktok />
+              </a>
+              
+              <a 
+                href="https://wa.me/97332260665"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-icon"
+                title="Contact us on WhatsApp"
+              >
+                <FaWhatsapp />
+              </a>
+              
+              <a 
+                href="mailto:expo.physiotherapy@gmail.com"
+                className="contact-social-icon"
+                title="Send us an email"
+              >
+                <FaEnvelope />
+              </a>
+            </div>
           </div>
         </div>
       </section>

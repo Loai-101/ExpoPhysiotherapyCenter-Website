@@ -10,8 +10,14 @@ import {
   FaBolt,
   FaUserNurse,
   FaHeartbeat,
-  FaWalking
+  FaWalking,
+  FaInstagram,
+  FaFacebook,
+  FaWhatsapp,
+  FaEnvelope,
+  FaYoutube
 } from 'react-icons/fa';
+import { FaTiktok } from 'react-icons/fa6';
 import './Services.css';
 
 const Services = () => {
@@ -97,21 +103,10 @@ const Services = () => {
             ar: "ضياء زيدان"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Motor Rehabilitation & Manual Therapy",
+            ar: "إعادة التأهيل الحركي والعلاج اليدوي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758610688/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_4_xdlopu.png"
-        },
-        {
-          name: {
-            en: "Menatallah Helal",
-            ar: "منه الله هلال"
-          },
-          specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائية علاج طبيعي"
-          },
-          image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758613943/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_5_igdtp7.png"
         }
       ],
       icon: <FaRunning />
@@ -157,8 +152,8 @@ const Services = () => {
             ar: "مصطفى محمد"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Sports Injuries & Motor Performance",
+            ar: "الإصابات الرياضية والأداء الحركي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758615309/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_6_exz01y.png"
         }
@@ -204,8 +199,8 @@ const Services = () => {
             ar: "منه الله هلال"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائية علاج طبيعي"
+            en: "Neurological & Muscular Conditions",
+            ar: "الحالات العصبية والعضلية"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758613943/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_5_igdtp7.png"
         }
@@ -251,8 +246,8 @@ const Services = () => {
             ar: "ضياء زيدان"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Motor Rehabilitation & Manual Therapy",
+            ar: "إعادة التأهيل الحركي والعلاج اليدوي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758610688/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_4_xdlopu.png"
         }
@@ -294,8 +289,8 @@ const Services = () => {
             ar: "ضياء زيدان"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Motor Rehabilitation & Manual Therapy",
+            ar: "إعادة التأهيل الحركي والعلاج اليدوي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758610688/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_4_xdlopu.png"
         }
@@ -337,8 +332,8 @@ const Services = () => {
             ar: "مصطفى محمد"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Sports Injuries & Motor Performance",
+            ar: "الإصابات الرياضية والأداء الحركي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758615309/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_6_exz01y.png"
         }
@@ -375,9 +370,15 @@ const Services = () => {
       },
       doctors: [
         {
-          name: "Diaa Zidan",
-          specialty: "Physical Therapy Specialist",
-          image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1756215714/Alex_in_the_surgery_at_Munro_Dental_eawjzy.webp"
+          name: {
+            en: "Dyaa Zeidan",
+            ar: "ضياء زيدان"
+          },
+          specialty: {
+            en: "Motor Rehabilitation & Manual Therapy",
+            ar: "إعادة التأهيل الحركي والعلاج اليدوي"
+          },
+          image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758610688/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_4_xdlopu.png"
         }
       ],
       icon: <FaWalking />
@@ -417,8 +418,8 @@ const Services = () => {
             ar: "منه الله هلال"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائية علاج طبيعي"
+            en: "Neurological & Muscular Conditions",
+            ar: "الحالات العصبية والعضلية"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758613943/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_5_igdtp7.png"
         }
@@ -462,8 +463,8 @@ const Services = () => {
             ar: "منه الله هلال"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائية علاج طبيعي"
+            en: "Neurological & Muscular Conditions",
+            ar: "الحالات العصبية والعضلية"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758613943/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_5_igdtp7.png"
         }
@@ -507,8 +508,8 @@ const Services = () => {
             ar: "منه الله هلال"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائية علاج طبيعي"
+            en: "Neurological & Muscular Conditions",
+            ar: "الحالات العصبية والعضلية"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758613943/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_5_igdtp7.png"
         }
@@ -554,8 +555,8 @@ const Services = () => {
             ar: "مصطفى محمد"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Sports Injuries & Motor Performance",
+            ar: "الإصابات الرياضية والأداء الحركي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758615309/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_6_exz01y.png"
         }
@@ -597,8 +598,8 @@ const Services = () => {
             ar: "مصطفى محمد"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Sports Injuries & Motor Performance",
+            ar: "الإصابات الرياضية والأداء الحركي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758615309/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_6_exz01y.png"
         }
@@ -642,8 +643,8 @@ const Services = () => {
             ar: "ضياء زيدان"
           },
           specialty: {
-            en: "Physical Therapy Specialist",
-            ar: "أخصائي علاج طبيعي"
+            en: "Motor Rehabilitation & Manual Therapy",
+            ar: "إعادة التأهيل الحركي والعلاج اليدوي"
           },
           image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758610688/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_4_xdlopu.png"
         }
@@ -665,23 +666,86 @@ const Services = () => {
           </video>
         </div>
         <div className="services-hero-overlay"></div>
-        <div className="services-hero-content">
-          <h1 className="services-hero-title">
-            {currentLanguage === 'ar' ? 'خدماتنا' : 'Our Services'}
-          </h1>
-          <p className="services-hero-description">
-            {currentLanguage === 'ar' 
-              ? 'نقدم مجموعة شاملة من خدمات العلاج الطبيعي المتخصصة لمساعدتك على التعافي والعودة إلى حياتك الطبيعية'
-              : 'We provide a comprehensive range of specialized physiotherapy services to help you recover and return to your normal life'
-            }
-          </p>
-          <div className="services-hero-buttons">
-            <Link to="/contact" className="services-hero-button-primary">
-              {currentLanguage === 'ar' ? 'احجز موعد' : 'Book Appointment'}
-            </Link>
-            <Link to="/team" className="services-hero-button-secondary">
-              {currentLanguage === 'ar' ? 'فريقنا الطبي' : 'Our Medical Team'}
-            </Link>
+        <div className="services-hero-container">
+          <div className={`services-hero-content ${currentLanguage === 'ar' ? 'rtl' : 'ltr'}`}>
+            <h1 className="services-hero-title">
+              {currentLanguage === 'ar' ? 'خدماتنا' : 'Our Services'}
+            </h1>
+            <p className="services-hero-description">
+              {currentLanguage === 'ar' 
+                ? 'نقدم مجموعة شاملة من خدمات العلاج الطبيعي المتخصصة لمساعدتك على التعافي والعودة إلى حياتك الطبيعية'
+                : 'We provide a comprehensive range of specialized physiotherapy services to help you recover and return to your normal life'
+              }
+            </p>
+            <div className="services-hero-buttons">
+              <Link to="/contact" className="services-hero-button-primary">
+                {currentLanguage === 'ar' ? 'احجز موعد' : 'Book Appointment'}
+              </Link>
+              <Link to="/team" className="services-hero-button-secondary">
+                {currentLanguage === 'ar' ? 'فريقنا الطبي' : 'Our Medical Team'}
+              </Link>
+            </div>
+            
+            {/* Social Media Icons */}
+            <div className="services-social-icons">
+              <a 
+                href="https://www.instagram.com/expo_physiotherapy_bh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="services-social-icon"
+                title="Follow us on Instagram"
+              >
+                <FaInstagram />
+              </a>
+              
+              <a 
+                href="https://www.facebook.com/profile.php?id=61552938691116&sk=photos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="services-social-icon"
+                title="Follow us on Facebook"
+              >
+                <FaFacebook />
+              </a>
+              
+              <a 
+                href="https://www.youtube.com/@expophysiotherapy/shorts"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="services-social-icon"
+                title="Subscribe to our YouTube channel"
+              >
+                <FaYoutube />
+              </a>
+              
+              <a 
+                href="https://www.tiktok.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="services-social-icon"
+                title="Follow us on TikTok"
+              >
+                <FaTiktok />
+              </a>
+              
+              <a 
+                href="https://wa.me/97332260665"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="services-social-icon"
+                title="Contact us on WhatsApp"
+              >
+                <FaWhatsapp />
+              </a>
+              
+              <a 
+                href="mailto:expo.physiotherapy@gmail.com"
+                className="services-social-icon"
+                title="Send us an email"
+              >
+                <FaEnvelope />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -792,35 +856,45 @@ const Services = () => {
                 )}
               </div>
               
-              {selectedService.doctors && Array.isArray(selectedService.doctors) && selectedService.doctors.length > 0 && (
-                <div className="service-popup-doctors">
-                  <h4 className="doctors-title">{currentLanguage === 'ar' ? 'الأطباء الذين يقدمون هذه الخدمة:' : 'Doctors who perform this service:'}</h4>
-                  <div className="doctors-list">
-                    {selectedService.doctors.map((doctor, index) => (
-                      <div key={index} className="doctor-item">
-                        <div className="doctor-image">
-                          <img 
-                            src={doctor.image || '/default-doctor.jpg'} 
-                            alt={doctor.name && doctor.name[currentLanguage] ? doctor.name[currentLanguage] : 'Doctor'}
-                            className="doctor-avatar"
-                            onError={(e) => {
-                              e.target.src = '/default-doctor.jpg';
-                            }}
-                          />
+              {/* Doctors who perform this service */}
+              <div className="service-popup-doctors">
+                <h4 className="doctors-title">{currentLanguage === 'ar' ? 'الأطباء الذين يقدمون هذه الخدمة:' : 'Doctors who perform this service:'}</h4>
+                <div className="doctors-grid">
+                  {console.log('Selected Service:', selectedService)}
+                  {console.log('Doctors:', selectedService.doctors)}
+                  {selectedService.doctors && Array.isArray(selectedService.doctors) && selectedService.doctors.length > 0 ? (
+                    selectedService.doctors.map((doctor, index) => {
+                      console.log('Doctor:', doctor);
+                      console.log('Doctor Name:', doctor.name);
+                      console.log('Doctor Specialty:', doctor.specialty);
+                      return (
+                        <div key={index} className="doctor-card-new">
+                          <div className="doctor-image-new">
+                            <img 
+                              src={doctor.image || '/default-doctor.jpg'} 
+                              alt={doctor.name && doctor.name[currentLanguage] ? doctor.name[currentLanguage] : 'Doctor'}
+                              className="doctor-avatar-new"
+                              onError={(e) => {
+                                e.target.src = '/default-doctor.jpg';
+                              }}
+                            />
+                          </div>
+                          <div className="doctor-content-new">
+                            <h5 className="doctor-name-new" style={{color: '#6A1B9A', fontSize: '1.2rem', fontWeight: '700', display: 'block', visibility: 'visible', opacity: '1'}}>
+                              {doctor.name && doctor.name[currentLanguage] ? doctor.name[currentLanguage] : 'Doctor Name'}
+                            </h5>
+                            <p className="doctor-specialty-new" style={{color: '#9C27B0', fontSize: '1rem', fontWeight: '500', display: 'block', visibility: 'visible', opacity: '1'}}>
+                              {doctor.specialty && doctor.specialty[currentLanguage] ? doctor.specialty[currentLanguage] : 'Specialty'}
+                            </p>
+                          </div>
                         </div>
-                        <div className="doctor-info">
-                          <span className="doctor-name">
-                            {doctor.name[currentLanguage]}
-                          </span>
-                          <span className="doctor-specialty">
-                            {doctor.specialty[currentLanguage]}
-                          </span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+                      );
+                    })
+                  ) : (
+                    <p className="no-doctors">{currentLanguage === 'ar' ? 'لا توجد معلومات الأطباء متاحة' : 'No doctor information available'}</p>
+                  )}
                 </div>
-              )}
+              </div>
               
             </div>
           </div>

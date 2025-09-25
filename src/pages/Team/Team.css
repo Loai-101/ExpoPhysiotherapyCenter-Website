@@ -58,8 +58,41 @@
 .team-subtitle {
   font-size: 1.2rem;
   color: #7f8c8d;
-  margin: 0;
+  margin: 0 0 2rem 0;
   line-height: 1.6;
+}
+
+/* Team social icons */
+.team-social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.team-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(156, 39, 176, 0.15);
+  border: 2px solid #9C27B0;
+  border-radius: 50%;
+  color: #9C27B0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.team-social-icon:hover {
+  background: #9C27B0;
+  border-color: #9C27B0;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(156, 39, 176, 0.5);
+  color: white;
+  text-decoration: none;
 }
 
 /* Team content */
@@ -84,7 +117,7 @@
   padding: 0;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease;
-  border: 2px solid transparent;
+  border: 3px solid #9C27B0;
   cursor: pointer;
   text-align: center;
   position: relative;
@@ -94,12 +127,35 @@
   transform: translateY(30px);
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  min-height: 400px;
+  height: auto;
+}
+
+.doctor-card::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border: 1px solid rgba(156, 39, 176, 0.3);
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .doctor-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  border-color: #9C27B0;
+  box-shadow: 0 20px 40px rgba(156, 39, 176, 0.3);
+  border-color: #6A1B9A;
+  border-width: 4px;
+}
+
+.doctor-card:hover::before {
+  border-color: rgba(156, 39, 176, 0.6);
+  border-width: 2px;
 }
 
 @keyframes fadeInUp {
@@ -112,9 +168,13 @@
 /* Doctor image */
 .doctor-image {
   width: 100%;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   border-radius: 16px 16px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
 }
 
 /* Doctor avatar emoji */
@@ -149,6 +209,9 @@
   gap: 0.8rem;
   padding: 1.5rem;
   background: white;
+  flex: 1;
+  justify-content: center;
+  min-height: 150px;
 }
 
 /* Doctor name */
@@ -167,6 +230,10 @@
   font-family: 'Georgia', serif;
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
+  min-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .doctor-card:hover .doctor-name {
@@ -192,6 +259,10 @@
   transition: all 0.3s ease;
   font-family: 'Arial', sans-serif;
   letter-spacing: 0.3px;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .doctor-card:hover .doctor-specialty {
@@ -533,6 +604,17 @@
   }
   
   .team-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .team-social-icons {
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+  
+  .team-social-icon {
+    width: 45px;
+    height: 45px;
     font-size: 1.1rem;
   }
   

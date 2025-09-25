@@ -35,7 +35,7 @@ const SocialSidebar = () => {
           title="Subscribe to our YouTube channel"
         >
           <FaYoutube />
-        </a>
+        </a> 
         
         <a 
           href="https://www.tiktok.com"
