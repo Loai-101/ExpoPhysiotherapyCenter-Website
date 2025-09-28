@@ -4,6 +4,188 @@
   background: linear-gradient(135deg, #faf8ff 0%, #f3e5f5 50%, #e1bee7 100%);
 }
 
+/* Team Hero Section */
+.team-hero {
+  position: relative;
+  min-height: 60vh;
+  background: url('https://res.cloudinary.com/dvybb2xnc/image/upload/v1759042615/WhatsApp_Image_2025-09-28_at_09.56.40_6f96aa24_e3xfov.jpg');
+  background-size: 110%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.team-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding-bottom: 4rem;
+}
+
+.team-hero-content {
+  color: white;
+  max-width: 800px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.team-hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: fadeInUp 1s ease-out 0.2s both;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1px;
+}
+
+.team-hero-description {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 2.5rem 0;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  animation: fadeInUp 1s ease-out 0.6s both;
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.team-hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease-out 1s both;
+}
+
+.team-hero-button-primary,
+.team-hero-button-secondary {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 180px;
+  text-align: center;
+}
+
+.team-hero-button-primary {
+  background: linear-gradient(135deg, #6A1B9A, #9C27B0);
+  color: white;
+  border: 2px solid transparent;
+}
+
+.team-hero-button-primary:hover {
+  background: linear-gradient(135deg, #4A148C, #7B1FA2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(106, 27, 154, 0.4);
+}
+
+.team-hero-button-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.team-hero-button-secondary:hover {
+  background: white;
+  color: #6A1B9A;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Team Hero Social Icons */
+.team-hero-social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 25rem;
+  animation: fadeInUp 1s ease-out 1.2s both;
+}
+
+.team-hero-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #6A1B9A, #9C27B0);
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.team-hero-social-icon:hover {
+  background: linear-gradient(135deg, #4A148C, #7B1FA2);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(106, 27, 154, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Insurance Moving Bar */
+.insurance-moving-bar {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem 0;
+  overflow: hidden;
+  position: relative;
+  border-top: 3px solid #6A1B9A;
+  border-bottom: 3px solid #6A1B9A;
+}
+
+.insurance-moving-content {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.insurance-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%) brightness(1.1);
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.insurance-logo:hover {
+  filter: grayscale(0%) brightness(1.2);
+  transform: scale(1.05);
+}
+
+
 /* Main team section */
 .team {
   background: transparent;
@@ -34,11 +216,12 @@
 
 /* Main team title */
 .team-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #2c3e50;
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
   position: relative;
+  text-align: center;
 }
 
 /* Title underline effect */
@@ -546,15 +729,15 @@
   }
   
   .doctor-image {
-    height: 180px;
+    height: 220px;
   }
   
   .doctor-info {
-    padding: 1.2rem;
+    padding: 1.5rem;
   }
   
   .doctor-avatar {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   
   .doctor-name {
@@ -564,6 +747,84 @@
   
   .doctor-specialty {
     font-size: 0.9rem;
+  }
+}
+
+/* iPad specific fixes for Team Hero */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .team-hero {
+    min-height: 55vh;
+  }
+  
+  .team-hero-title {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 1rem 0 !important;
+  }
+  
+  .team-hero-description {
+    font-size: 1.1rem !important;
+    margin: 0 0 2rem 0 !important;
+    line-height: 1.5 !important;
+  }
+  
+  .team-hero-button-primary,
+  .team-hero-button-secondary {
+    padding: 0.8rem 1.5rem !important;
+    font-size: 1rem !important;
+    min-width: 160px !important;
+  }
+  
+  .team-hero-container {
+    padding-bottom: 3rem;
+  }
+  
+  .team-hero-social-icons {
+    gap: 0.8rem;
+    margin-top: 6rem;
+  }
+  
+  .team-hero-social-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+}
+
+/* Laptop specific fixes for Team Hero */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .team-hero-title {
+    font-size: 2.5rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 1rem 0 !important;
+  }
+  
+  .team-hero-description {
+    font-size: 1.1rem !important;
+    margin: 0 0 2rem 0 !important;
+    line-height: 1.5 !important;
+  }
+  
+  .team-hero-button-primary,
+  .team-hero-button-secondary {
+    padding: 0.9rem 1.8rem !important;
+    font-size: 1rem !important;
+    min-width: 170px !important;
+  }
+  
+  .team-hero-container {
+    padding-bottom: 3.5rem;
+  }
+  
+  .team-hero-social-icons {
+    gap: 0.9rem;
+    margin-top: 6.5rem;
+  }
+  
+  .team-hero-social-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 1.15rem;
   }
 }
 
@@ -591,6 +852,61 @@
 
 /* Responsive design for mobile */
 @media (max-width: 768px) {
+  .team-hero {
+    min-height: 50vh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  .team-hero-container {
+    padding-bottom: 2rem;
+  }
+  
+  .team-hero-title {
+    font-size: 1.8rem !important;
+    line-height: 1.1 !important;
+    margin: 0 0 0.8rem 0 !important;
+  }
+  
+  .team-hero-description {
+    font-size: 1rem !important;
+    margin: 0 0 1.5rem 0 !important;
+    line-height: 1.4 !important;
+  }
+  
+  .team-hero-button-primary,
+  .team-hero-button-secondary {
+    padding: 0.7rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    min-width: 140px !important;
+  }
+  
+  .team-hero-social-icons {
+    gap: 0.7rem;
+    margin-top: 4.5rem;
+  }
+  
+  .team-hero-social-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  
+  .insurance-moving-bar {
+    padding: 1.5rem 0;
+  }
+  
+  .insurance-moving-content {
+    gap: 2rem;
+  }
+  
+  .insurance-logo {
+    height: 45px;
+  }
+  
   .team {
     padding: 4rem 0;
   }
@@ -627,6 +943,12 @@
 
 /* Extra small screens - single column */
 @media (max-width: 480px) {
+  .team-hero {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  
   .doctors-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -639,20 +961,21 @@
   }
   
   .doctor-image {
-    height: 150px;
+    height: 200px;
   }
   
   .doctor-info {
-    padding: 1rem;
+    padding: 1.2rem;
   }
   
   .doctor-avatar {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   
   .doctor-avatar-image {
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   
   .doctor-name {

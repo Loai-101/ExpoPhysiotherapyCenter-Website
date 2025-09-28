@@ -132,26 +132,17 @@ const Team = () => {
 
   return (
     <div className="team-page">
-      <section id="team" className={`team ${isVisible ? 'team-visible' : ''}`}>
-        <div className="team-container">
-          <div className="team-header">
-            <h2 className="team-title">
-              {currentLanguage === 'ar' ? 'تعرف على فريقنا' : 'Meet Our Team'}
-            </h2>
-            <p className="team-subtitle">
-              {currentLanguage === 'ar' 
-                ? 'أخصائيو العلاج الطبيعي ذوو الخبرة المكرسون لحركتك ورفاهيتك'
-                : 'Experienced physiotherapy professionals dedicated to your mobility and wellness'
-              }
-            </p>
-            
+      {/* Team Hero Section */}
+      <section className="team-hero">
+        <div className="team-hero-container">
+          <div className="team-hero-content">
             {/* Social Media Icons */}
-            <div className="team-social-icons">
+            <div className="team-hero-social-icons">
               <a 
                 href="https://www.instagram.com/expo_physiotherapy_bh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="team-social-icon"
+                className="team-hero-social-icon"
                 title="Follow us on Instagram"
               >
                 <FaInstagram />
@@ -161,7 +152,7 @@ const Team = () => {
                 href="https://www.facebook.com/profile.php?id=61552938691116&sk=photos"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="team-social-icon"
+                className="team-hero-social-icon"
                 title="Follow us on Facebook"
               >
                 <FaFacebook />
@@ -171,7 +162,7 @@ const Team = () => {
                 href="https://www.youtube.com/@expophysiotherapy/shorts"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="team-social-icon"
+                className="team-hero-social-icon"
                 title="Subscribe to our YouTube channel"
               >
                 <FaYoutube />
@@ -181,7 +172,7 @@ const Team = () => {
                 href="https://www.tiktok.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="team-social-icon"
+                className="team-hero-social-icon"
                 title="Follow us on TikTok"
               >
                 <FaTiktok />
@@ -191,7 +182,7 @@ const Team = () => {
                 href="https://wa.me/97332260665"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="team-social-icon"
+                className="team-hero-social-icon"
                 title="Contact us on WhatsApp"
               >
                 <FaWhatsapp />
@@ -199,12 +190,22 @@ const Team = () => {
               
               <a 
                 href="mailto:expo.physiotherapy@gmail.com"
-                className="team-social-icon"
+                className="team-hero-social-icon"
                 title="Send us an email"
               >
                 <FaEnvelope />
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" className={`team ${isVisible ? 'team-visible' : ''}`}>
+        <div className="team-container">
+          <div className="team-header">
+            <h1 className="team-title">
+              {currentLanguage === 'ar' ? 'فريقنا الطبي' : 'Our Medical Team'}
+            </h1>
           </div>
           
           <div className="team-content">
@@ -240,6 +241,17 @@ const Team = () => {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Insurance Moving Bar */}
+      <section className="insurance-moving-bar">
+        <div className="insurance-moving-content">
+          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043856/health_lbuhna.jpg" alt="Health Insurance" className="insurance-logo" />
+          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043856/images_2_fbizvi.png" alt="Insurance" className="insurance-logo" />
+          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043859/Nextcare-Newlogo_ghvlr4.jpg" alt="Nextcare" className="insurance-logo" />
+          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043859/MetLife_zmylyp.jpg" alt="MetLife" className="insurance-logo" />
+          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043861/mednet_ikfjux.jpg" alt="MedNet" className="insurance-logo" />
         </div>
       </section>
 
