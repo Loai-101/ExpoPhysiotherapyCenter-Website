@@ -246,12 +246,17 @@ const Team = () => {
 
       {/* Insurance Moving Bar */}
       <section className="insurance-moving-bar">
-        <div className="insurance-moving-content">
-          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043856/health_lbuhna.jpg" alt="Health Insurance" className="insurance-logo" />
-          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043856/images_2_fbizvi.png" alt="Insurance" className="insurance-logo" />
-          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043859/Nextcare-Newlogo_ghvlr4.jpg" alt="Nextcare" className="insurance-logo" />
-          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043859/MetLife_zmylyp.jpg" alt="MetLife" className="insurance-logo" />
-          <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043861/mednet_ikfjux.jpg" alt="MedNet" className="insurance-logo" />
+        <div className="insurance-section">
+          <h3 className="insurance-title">
+            {currentLanguage === 'ar' ? 'شركاء التأمين' : 'Insurance Partners'}
+          </h3>
+          <div className="insurance-moving-content">
+            <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043856/health_lbuhna.jpg" alt="Health Insurance" className="insurance-logo" />
+            <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043856/images_2_fbizvi.png" alt="Insurance" className="insurance-logo" />
+            <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043859/Nextcare-Newlogo_ghvlr4.jpg" alt="Nextcare" className="insurance-logo" />
+            <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043859/MetLife_zmylyp.jpg" alt="MetLife" className="insurance-logo" />
+            <img src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759043861/mednet_ikfjux.jpg" alt="MedNet" className="insurance-logo" />
+          </div>
         </div>
       </section>
 

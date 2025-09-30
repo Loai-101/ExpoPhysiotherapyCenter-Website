@@ -163,6 +163,23 @@
   border-bottom: 3px solid #6A1B9A;
 }
 
+.insurance-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.insurance-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6A1B9A;
+  margin: 0 0 2rem 0;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.5px;
+}
+
 .insurance-moving-content {
   display: flex;
   gap: 3rem;
@@ -870,6 +887,11 @@
   
   .insurance-moving-bar {
     padding: 1.5rem 0;
+  }
+  
+  .insurance-title {
+    font-size: 1.5rem;
+    margin: 0 0 1.5rem 0;
   }
   
   .insurance-moving-content {
