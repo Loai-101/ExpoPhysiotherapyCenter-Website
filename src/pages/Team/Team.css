@@ -709,7 +709,7 @@
 }
 
 /* Responsive design for tablets */
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
   .team {
     padding: 5rem 0;
   }
@@ -751,7 +751,7 @@
 }
 
 /* iPad specific fixes for Team Hero */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1366px) {
   .team-hero {
     min-height: 55vh;
   }
@@ -829,16 +829,21 @@
 }
 
 /* iPad specific fixes */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1366px) {
   .doctors-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
   
+  .doctor-image {
+    height: 250px;
+  }
+  
   .doctor-avatar-image {
-    width: 90px;
-    height: 90px;
-    border-width: 3px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
   }
   
   .doctor-name {
@@ -851,7 +856,7 @@
 }
 
 /* Responsive design for mobile */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .team-hero {
     min-height: 50vh;
     margin-top: 0 !important;
@@ -1147,7 +1152,7 @@
 }
 
 /* Responsive design for Team CTA section */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .team-cta-section {
     padding: 3rem 0;
   }
