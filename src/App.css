@@ -1,4 +1,9 @@
 /* Global App Styles */
+/* Import comprehensive responsive design system */
+@import './styles/responsive.css';
+@import './styles/mobile-optimizations.css';
+@import './styles/device-fixes.css';
+
 /* Reset and base styles */
 * {
   margin: 0;
