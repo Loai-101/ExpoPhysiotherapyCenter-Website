@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://expo-physiotherapy-center.vercel.app/sitemap.xml
+Sitemap: https://expophysiotherapy.com/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
