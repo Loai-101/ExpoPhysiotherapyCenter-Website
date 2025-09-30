@@ -54,7 +54,7 @@ const Header = () => {
         <div className="header-logo">
           <Link to="/" className="header-logo-link">
             <img 
-              src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1758792444/40e4dc9c-28ff-4fd9-83da-87e1c3d89d6d_mh1ghi.png" 
+              src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1759230964/Screenshot_2025-09-30_141557_glwpx3.png" 
               alt="Expo Physiotherapy Center Logo" 
               className="header-logo-image"
             />
