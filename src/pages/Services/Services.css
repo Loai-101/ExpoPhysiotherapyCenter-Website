@@ -208,36 +208,6 @@
   }
 }
 
-/* iPad Specific Fixes for Hero */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .services-hero {
-    min-height: 55vh;
-  }
-  
-  .services-hero-container {
-    padding-bottom: 3rem;
-    margin-top: 1.5rem;
-  }
-  
-  .services-hero-title {
-    font-size: 2.2rem !important;
-    line-height: 1.2 !important;
-    margin: 0 0 1rem 0 !important;
-  }
-  
-  .services-hero-description {
-    font-size: 1.1rem !important;
-    margin: 0 0 2rem 0 !important;
-    line-height: 1.5 !important;
-  }
-  
-  .services-hero-button-primary,
-  .services-hero-button-secondary {
-    padding: 0.8rem 1.5rem !important;
-    font-size: 1rem !important;
-    min-width: 160px !important;
-  }
-}
 
 /* iPad Pro Specific Fixes for Hero */
 @media (min-width: 1024px) and (max-width: 1366px) {
