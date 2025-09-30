@@ -62,7 +62,7 @@ const Team = () => {
         en: "Has extensive experience in motor rehabilitation and manual therapy. He adopts a precise and customized approach for each case to ensure the best therapeutic outcomes.",
         ar: "يتميز بخبرة واسعة في إعادة التأهيل الحركي والعلاج اليدوي، ويعتمد نهجًا دقيقًا ومخصصًا لكل حالة لضمان أفضل نتائج علاجية."
       },
-      image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758610688/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_4_xdlopu.png"
+      image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1759229088/Pic1_vsea5u.png"
     },
     {
       id: 2,
@@ -90,7 +90,7 @@ const Team = () => {
         en: "Specializes in treating neurological and muscular conditions. She has high skills in communicating with patients and providing comprehensive care that considers their individual needs.",
         ar: "متخصصة في علاج الحالات العصبية والعضلية، وتتمتع بمهارات عالية في التواصل مع المرضى وتقديم رعاية شاملة تراعي احتياجاتهم الفردية."
       },
-      image: "https://res.cloudinary.com/dvybb2xnc/image/upload/w_300,h_300,c_fill,g_face/v1758613943/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_5_igdtp7.png"
+      image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1759229088/Pic2_lt2rgm.png"
     },
     {
       id: 3,
