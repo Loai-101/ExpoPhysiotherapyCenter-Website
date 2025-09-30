@@ -707,6 +707,21 @@
 }
 
 
+/* iPad Specific Fixes */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero {
+    min-height: 55vh !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    position: relative !important;
+    margin-top: -80px !important;
+    padding-top: 80px !important;
+  }
+}
+
 /* iPad Pro Specific Fixes */
 @media (min-width: 1024px) and (max-width: 1366px) {
   .hero {
@@ -717,6 +732,8 @@
     justify-content: center !important;
     overflow: hidden !important;
     position: relative !important;
+    margin-top: -85px !important;
+    padding-top: 85px !important;
   }
   
   .hero-title {
