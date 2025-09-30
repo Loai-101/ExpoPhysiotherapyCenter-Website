@@ -849,6 +849,15 @@
     line-height: 1.0 !important;
   }
   
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.3rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  
   .hero-button {
     padding: 0.15rem 0.3rem !important;
     font-size: 0.4rem !important;
@@ -868,6 +877,15 @@
     font-size: 0.4rem !important;
     margin: 0 0 0.3rem 0 !important;
     line-height: 0.9 !important;
+  }
+  
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.2rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
   }
   
   .hero-button {
@@ -909,6 +927,15 @@
     font-size: 0.5rem !important;
     margin: 0 0 0.6rem 0 !important;
     line-height: 1.1 !important;
+  }
+  
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.5rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
   }
   
   .hero-container {
