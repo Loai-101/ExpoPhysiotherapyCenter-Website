@@ -154,10 +154,10 @@ a:focus {
   }
 }
 
-/* Mobile responsive - add proper spacing for header */
+/* Mobile responsive - remove gap between header and hero */
 @media (max-width: 767px) {
   .main-content {
-    padding-top: 70px !important;
+    padding-top: 0 !important;
   }
   
   .home-page,
@@ -165,6 +165,6 @@ a:focus {
   .team-page,
   .contact-page,
   .appointment-page {
-    min-height: calc(100vh - 70px) !important;
+    min-height: 100vh !important;
   }
 }
