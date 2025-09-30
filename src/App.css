@@ -53,7 +53,7 @@ body {
 /* Main content area */
 .main-content {
   flex: 1;
-  padding-top: 80px; /* Account for fixed header */
+  padding-top: 0; /* Default no padding for desktop */
   background: transparent;
   opacity: 1;
   transition: opacity 0.5s ease-in;
@@ -87,8 +87,23 @@ body {
 .team-page,
 .contact-page,
 .insurance-page {
-  min-height: calc(100vh - 80px);
+  min-height: 100vh; /* Default full height for desktop */
   background: linear-gradient(135deg, #faf8ff 0%, #f3e5f5 50%, #e1bee7 100%) !important;
+}
+
+/* Desktop/PC specific - keep original behavior */
+@media (min-width: 1367px) {
+  .main-content {
+    padding-top: 80px; /* Account for fixed header on desktop */
+  }
+  
+  .home-page,
+  .services-page,
+  .team-page,
+  .contact-page,
+  .appointment-page {
+    min-height: calc(100vh - 80px);
+  }
 }
 
 /* Code font for any code elements */
@@ -137,7 +152,6 @@ a:focus {
   .appointment-page {
     min-height: calc(100vh - 85px) !important;
   }
-  
 }
 
 /* Mobile responsive - add proper spacing for header */
