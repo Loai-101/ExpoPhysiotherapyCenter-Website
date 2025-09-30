@@ -285,7 +285,7 @@
     margin-top: -70px !important;
     padding-top: 70px !important;
     align-items: flex-end !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 6rem !important;
   }
   
   .services-hero-container {
@@ -339,7 +339,7 @@
 @media (max-width: 480px) {
   .services-hero {
     align-items: flex-end !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 6rem !important;
   }
   
   .services-hero-title {
@@ -386,7 +386,7 @@
 @media (max-width: 375px) {
   .services-hero {
     align-items: flex-end !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 6rem !important;
   }
   
   .services-hero-title {
@@ -418,7 +418,7 @@
 @media (max-width: 360px) {
   .services-hero {
     align-items: flex-end !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 6rem !important;
   }
   
   .services-hero-title {
