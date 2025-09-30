@@ -115,7 +115,7 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin-top: 25rem;
+  margin-top: 30rem;
   animation: fadeInUp 1s ease-out 1.2s both;
 }
 
@@ -785,7 +785,7 @@
   
   .team-hero-social-icons {
     gap: 0.8rem;
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
   
   .team-hero-social-icon {
@@ -859,7 +859,7 @@
   
   .team-hero-social-icons {
     gap: 0.7rem;
-    margin-top: 4.5rem;
+    margin-top: 6rem;
   }
   
   .team-hero-social-icon {
