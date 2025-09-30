@@ -868,30 +868,30 @@
 /* Very small mobile screens (iPhone SE 375x667, etc.) */
 @media (max-width: 375px) {
   .hero-title {
-    font-size: 0.45rem !important;
-    line-height: 0.7 !important;
-    margin: 0 0 0.1rem 0 !important;
+    font-size: 0.35rem !important;
+    line-height: 0.6 !important;
+    margin: 0 0 0.05rem 0 !important;
   }
   
   .hero-description {
-    font-size: 0.35rem !important;
-    margin: 0 0 0.2rem 0 !important;
-    line-height: 0.8 !important;
+    font-size: 0.25rem !important;
+    margin: 0 0 0.1rem 0 !important;
+    line-height: 0.7 !important;
   }
   
   .hero-buttons {
     display: flex !important;
     flex-direction: row !important;
-    gap: 0.15rem !important;
+    gap: 0.1rem !important;
     justify-content: center !important;
     align-items: center !important;
     flex-wrap: wrap !important;
   }
   
   .hero-button {
-    padding: 0.08rem 0.2rem !important;
-    font-size: 0.3rem !important;
-    min-width: 35px !important;
+    padding: 0.05rem 0.15rem !important;
+    font-size: 0.25rem !important;
+    min-width: 30px !important;
   }
 }
 
