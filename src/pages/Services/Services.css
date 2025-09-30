@@ -294,28 +294,28 @@
   }
   
   .services-hero-title {
-    font-size: 0.3rem !important;
-    line-height: 0.6 !important;
-    margin: 0 0 0.05rem 0 !important;
+    font-size: 0.7rem !important;
+    line-height: 0.9 !important;
+    margin: 0 0 0.3rem 0 !important;
   }
   
   .services-hero-description {
-    font-size: 0.25rem !important;
-    margin: 0 0 0.1rem 0 !important;
-    line-height: 0.7 !important;
+    font-size: 0.6rem !important;
+    margin: 0 0 0.4rem 0 !important;
+    line-height: 0.9 !important;
   }
   
   .services-hero-buttons {
     flex-direction: row;
     align-items: center;
-    gap: 0.1rem;
+    gap: 0.3rem;
   }
   
   .services-hero-button-primary,
   .services-hero-button-secondary {
-    padding: 0.05rem 0.15rem !important;
-    font-size: 0.2rem !important;
-    min-width: 25px !important;
+    padding: 0.2rem 0.4rem !important;
+    font-size: 0.5rem !important;
+    min-width: 50px !important;
   }
   
   .services-social-icons {
@@ -343,27 +343,27 @@
   }
   
   .services-hero-title {
-    font-size: 0.25rem !important;
-    line-height: 0.5 !important;
-    margin: 0 0 0.02rem 0 !important;
+    font-size: 0.6rem !important;
+    line-height: 0.8 !important;
+    margin: 0 0 0.2rem 0 !important;
   }
   
   .services-hero-description {
-    font-size: 0.18rem !important;
-    margin: 0 0 0.05rem 0 !important;
-    line-height: 0.6 !important;
+    font-size: 0.5rem !important;
+    margin: 0 0 0.3rem 0 !important;
+    line-height: 0.9 !important;
   }
   
   .services-hero-buttons {
     flex-direction: row !important;
-    gap: 0.05rem !important;
+    gap: 0.2rem !important;
   }
   
   .services-hero-button-primary,
   .services-hero-button-secondary {
-    padding: 0.03rem 0.1rem !important;
-    font-size: 0.18rem !important;
-    min-width: 22px !important;
+    padding: 0.15rem 0.3rem !important;
+    font-size: 0.45rem !important;
+    min-width: 40px !important;
   }
   
   .services-hero-content {
@@ -390,27 +390,27 @@
   }
   
   .services-hero-title {
-    font-size: 0.2rem !important;
-    line-height: 0.4 !important;
-    margin: 0 0 0.01rem 0 !important;
+    font-size: 0.55rem !important;
+    line-height: 0.75 !important;
+    margin: 0 0 0.15rem 0 !important;
   }
   
   .services-hero-description {
-    font-size: 0.15rem !important;
-    margin: 0 0 0.02rem 0 !important;
-    line-height: 0.5 !important;
+    font-size: 0.45rem !important;
+    margin: 0 0 0.25rem 0 !important;
+    line-height: 0.8 !important;
   }
   
   .services-hero-buttons {
     flex-direction: row !important;
-    gap: 0.03rem !important;
+    gap: 0.15rem !important;
   }
   
   .services-hero-button-primary,
   .services-hero-button-secondary {
-    padding: 0.02rem 0.08rem !important;
-    font-size: 0.15rem !important;
-    min-width: 20px !important;
+    padding: 0.12rem 0.25rem !important;
+    font-size: 0.4rem !important;
+    min-width: 35px !important;
   }
 }
 
@@ -422,27 +422,27 @@
   }
   
   .services-hero-title {
-    font-size: 0.18rem !important;
-    line-height: 0.35 !important;
-    margin: 0 0 0.005rem 0 !important;
+    font-size: 0.5rem !important;
+    line-height: 0.7 !important;
+    margin: 0 0 0.1rem 0 !important;
   }
   
   .services-hero-description {
-    font-size: 0.12rem !important;
-    margin: 0 0 0.01rem 0 !important;
-    line-height: 0.4 !important;
+    font-size: 0.4rem !important;
+    margin: 0 0 0.2rem 0 !important;
+    line-height: 0.75 !important;
   }
   
   .services-hero-buttons {
     flex-direction: row !important;
-    gap: 0.02rem !important;
+    gap: 0.1rem !important;
   }
   
   .services-hero-button-primary,
   .services-hero-button-secondary {
-    padding: 0.01rem 0.06rem !important;
-    font-size: 0.12rem !important;
-    min-width: 18px !important;
+    padding: 0.1rem 0.2rem !important;
+    font-size: 0.35rem !important;
+    min-width: 30px !important;
   }
 }
 
