@@ -8,22 +8,22 @@
 @media (max-width: 375px) {
   /* iPhone SE specific styles */
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.4rem !important;
+    font-size: 1.1rem !important;
     line-height: 1.1 !important;
-    margin: 0 0 0.5rem 0 !important;
+    margin: 0 0 0.3rem 0 !important;
   }
   
   .hero-description, .services-hero-description, .contact-hero-description {
-    font-size: 0.9rem !important;
-    line-height: 1.3 !important;
-    margin: 0 0 1rem 0 !important;
+    font-size: 0.8rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.8rem 0 !important;
   }
   
   .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
   .contact-hero-button-primary, .contact-hero-button-secondary {
-    padding: 0.6rem 1rem !important;
-    font-size: 0.8rem !important;
-    min-width: 120px !important;
+    padding: 0.5rem 0.8rem !important;
+    font-size: 0.7rem !important;
+    min-width: 100px !important;
   }
   
   .doctor-card {
@@ -48,20 +48,20 @@
 /* iPhone XR (414px) */
 @media (min-width: 376px) and (max-width: 414px) {
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.6rem !important;
+    font-size: 1.3rem !important;
     line-height: 1.2 !important;
   }
   
   .hero-description, .services-hero-description, .contact-hero-description {
-    font-size: 1rem !important;
-    line-height: 1.4 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.3 !important;
   }
   
   .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
   .contact-hero-button-primary, .contact-hero-button-secondary {
-    padding: 0.7rem 1.2rem !important;
-    font-size: 0.9rem !important;
-    min-width: 130px !important;
+    padding: 0.6rem 1rem !important;
+    font-size: 0.8rem !important;
+    min-width: 110px !important;
   }
   
   .doctor-image {
@@ -70,9 +70,19 @@
 }
 
 /* iPhone 12 Pro (390px) */
-@media (min-width: 415px) and (max-width: 390px) {
+@media (min-width: 390px) and (max-width: 390px) {
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.7rem !important;
+    font-size: 1.4rem !important;
+  }
+  
+  .hero-description, .services-hero-description, .contact-hero-description {
+    font-size: 0.9rem !important;
+  }
+  
+  .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
+  .contact-hero-button-primary, .contact-hero-button-secondary {
+    font-size: 0.8rem !important;
+    padding: 0.6rem 1rem !important;
   }
   
   .doctor-image {
@@ -83,7 +93,17 @@
 /* iPhone 14 Pro Max (430px) */
 @media (min-width: 391px) and (max-width: 430px) {
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
+  }
+  
+  .hero-description, .services-hero-description, .contact-hero-description {
+    font-size: 1rem !important;
+  }
+  
+  .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
+  .contact-hero-button-primary, .contact-hero-button-secondary {
+    font-size: 0.9rem !important;
+    padding: 0.7rem 1.1rem !important;
   }
   
   .doctor-image {
@@ -94,14 +114,34 @@
 /* Pixel 7 (412px) */
 @media (min-width: 411px) and (max-width: 412px) {
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.7rem !important;
+    font-size: 1.4rem !important;
+  }
+  
+  .hero-description, .services-hero-description, .contact-hero-description {
+    font-size: 0.9rem !important;
+  }
+  
+  .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
+  .contact-hero-button-primary, .contact-hero-button-secondary {
+    font-size: 0.8rem !important;
+    padding: 0.6rem 1rem !important;
   }
 }
 
 /* Samsung Galaxy S8+ (360px) */
 @media (min-width: 360px) and (max-width: 360px) {
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
+  }
+  
+  .hero-description, .services-hero-description, .contact-hero-description {
+    font-size: 0.8rem !important;
+  }
+  
+  .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
+  .contact-hero-button-primary, .contact-hero-button-secondary {
+    font-size: 0.7rem !important;
+    padding: 0.5rem 0.8rem !important;
   }
   
   .doctor-image {
@@ -112,14 +152,34 @@
 /* Samsung Galaxy S20 Ultra (412px) */
 @media (min-width: 412px) and (max-width: 412px) {
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.7rem !important;
+    font-size: 1.4rem !important;
+  }
+  
+  .hero-description, .services-hero-description, .contact-hero-description {
+    font-size: 0.9rem !important;
+  }
+  
+  .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
+  .contact-hero-button-primary, .contact-hero-button-secondary {
+    font-size: 0.8rem !important;
+    padding: 0.6rem 1rem !important;
   }
 }
 
 /* Samsung Galaxy A51/71 (412px) */
 @media (min-width: 412px) and (max-width: 412px) {
   .hero-title, .services-hero-title, .contact-hero-title, .team-hero-title {
-    font-size: 1.7rem !important;
+    font-size: 1.4rem !important;
+  }
+  
+  .hero-description, .services-hero-description, .contact-hero-description {
+    font-size: 0.9rem !important;
+  }
+  
+  .hero-button, .services-hero-button-primary, .services-hero-button-secondary,
+  .contact-hero-button-primary, .contact-hero-button-secondary {
+    font-size: 0.8rem !important;
+    padding: 0.6rem 1rem !important;
   }
 }
 
