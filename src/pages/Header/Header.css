@@ -196,10 +196,10 @@
   display: none;
 }
 
-/* iPad Specific Fixes - Show hamburger menu like mobile */
+/* iPad Specific Fixes - Use Mobile Menu */
 @media (min-width: 768px) and (max-width: 1023px) {
   .header-container {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     height: 80px;
   }
   
