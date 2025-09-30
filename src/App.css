@@ -114,6 +114,14 @@ a:focus {
   .main-content {
     padding-top: 80px !important;
   }
+  
+  .home-page,
+  .services-page,
+  .team-page,
+  .contact-page,
+  .appointment-page {
+    min-height: calc(100vh - 80px) !important;
+  }
 }
 
 /* iPad Pro and larger tablets */
@@ -138,7 +146,7 @@ a:focus {
 }
 
 /* Mobile responsive - add proper spacing for header */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .main-content {
     padding-top: 70px !important;
   }

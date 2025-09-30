@@ -801,7 +801,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero {
     min-height: 50vh !important;
     margin-top: 0 !important;
