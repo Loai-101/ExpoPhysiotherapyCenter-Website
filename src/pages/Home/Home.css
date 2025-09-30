@@ -707,7 +707,42 @@
 }
 
 /* iPad Specific Fixes */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero {
+    min-height: 55vh !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 1rem 0 !important;
+  }
+  
+  .hero-description {
+    font-size: 1.1rem !important;
+    margin: 0 0 2rem 0 !important;
+    line-height: 1.5 !important;
+  }
+  
+  .hero-button {
+    padding: 0.8rem 1.5rem !important;
+    font-size: 1rem !important;
+    min-width: 160px !important;
+  }
+  
+  .hero-container {
+    padding: 0 2rem 3rem 2rem !important;
+  }
+}
+
+/* iPad Pro Specific Fixes */
+@media (min-width: 1024px) and (max-width: 1366px) {
   .hero {
     min-height: 55vh !important;
     width: 100% !important;

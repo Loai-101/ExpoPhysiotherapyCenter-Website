@@ -110,14 +110,14 @@ a:focus {
 }
 
 /* iPad Specific Fixes */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .main-content {
     padding-top: 80px !important;
   }
 }
 
 /* iPad Pro and larger tablets */
-@media (min-width: 1025px) and (max-width: 1366px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
   .main-content {
     padding-top: 85px !important;
   }
@@ -127,7 +127,7 @@ a:focus {
   .team-page,
   .contact-page,
   .appointment-page {
-    min-height: calc(100vh - 80px) !important;
+    min-height: calc(100vh - 85px) !important;
   }
   
   .hero,
