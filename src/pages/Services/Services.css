@@ -283,7 +283,7 @@
   .services-hero {
     min-height: 50vh;
     margin-top: -70px !important;
-    padding-top: 70px !important;
+    padding-top: 120px !important;
     align-items: center !important;
     padding-bottom: 2rem !important;
   }
@@ -338,6 +338,7 @@
 
 @media (max-width: 480px) {
   .services-hero {
+    padding-top: 120px !important;
     align-items: center !important;
     padding-bottom: 2rem !important;
   }
@@ -385,6 +386,7 @@
 /* iPhone SE (375x667) and very small mobile devices */
 @media (max-width: 375px) {
   .services-hero {
+    padding-top: 120px !important;
     align-items: center !important;
     padding-bottom: 2rem !important;
   }
@@ -417,6 +419,7 @@
 /* Very small mobile devices */
 @media (max-width: 360px) {
   .services-hero {
+    padding-top: 120px !important;
     align-items: center !important;
     padding-bottom: 2rem !important;
   }
