@@ -828,7 +828,7 @@
   }
   
   .hero-title {
-    font-size: 1.1rem !important;
+    font-size: 0.9rem !important;
     line-height: 1.1 !important;
     word-wrap: break-word !important;
     white-space: normal !important;
@@ -838,13 +838,13 @@
     width: 100% !important;
     text-align: center !important;
     letter-spacing: 0.2px !important;
-    margin: 0 0 0.6rem 0 !important;
+    margin: 0 0 0.5rem 0 !important;
     padding: 0 !important;
   }
   
   .hero-description {
-    font-size: 0.8rem !important;
-    margin: 0 0 1.2rem 0 !important;
+    font-size: 0.7rem !important;
+    margin: 0 0 1rem 0 !important;
     line-height: 1.3 !important;
   }
   
@@ -1045,9 +1045,9 @@
   }
   
   .hero-button {
-    padding: 0.4rem 0.7rem !important;
-    font-size: 0.7rem !important;
-    min-width: 90px !important;
+    padding: 0.3rem 0.6rem !important;
+    font-size: 0.65rem !important;
+    min-width: 80px !important;
   }
   
   .hero-container {
