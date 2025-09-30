@@ -83,8 +83,8 @@ const Team = () => {
         ar: "الحالات العصبية والعضلية"
       },
       specialties: {
-        en: ["Neurological Rehabilitation", "Muscle Therapy", "Stroke Recovery", "Balance Training", "Gait Training", "Cognitive Therapy"],
-        ar: ["إعادة التأهيل العصبي", "العلاج العضلي", "تعافي الجلطات", "تدريب التوازن", "تدريب المشي", "العلاج المعرفي"]
+        en: ["Neurological Rehabilitation", "Muscle Therapy", "Stroke Recovery", "Balance Training", "Gait Training", "Cognitive Therapy", "Sports Injuries", "Women", "Spine and Bones"],
+        ar: ["إعادة التأهيل العصبي", "العلاج العضلي", "تعافي الجلطات", "تدريب التوازن", "تدريب المشي", "العلاج المعرفي", "إصابات الرياضة", "النساء", "العمود الفقري والعظام"]
       },
       description: {
         en: "Specializes in treating neurological and muscular conditions. She has high skills in communicating with patients and providing comprehensive care that considers their individual needs.",
