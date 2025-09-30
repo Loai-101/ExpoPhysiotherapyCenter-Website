@@ -9,9 +9,9 @@
   position: relative;
   min-height: 60vh;
   background: url('https://res.cloudinary.com/dvybb2xnc/image/upload/v1759042615/WhatsApp_Image_2025-09-28_at_09.56.40_6f96aa24_e3xfov.jpg');
-  background-size: 110%;
+  background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
