@@ -178,7 +178,7 @@ const Appointment = () => {
       formDataToSend.append('_template', 'table');
 
       // Send to FormSubmit
-      const response = await fetch('https://formsubmit.co/q9g8moh@gmail.com', {
+      const response = await fetch('https://formsubmit.co/expo.physiotherapy@gmail.com', {
         method: 'POST',
         body: formDataToSend,
         headers: {
