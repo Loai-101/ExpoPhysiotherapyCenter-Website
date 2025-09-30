@@ -776,6 +776,8 @@
     justify-content: center !important;
     overflow: hidden !important;
     position: relative !important;
+    margin-top: -70px !important;
+    padding-top: 70px !important;
   }
   
   .hero-title {

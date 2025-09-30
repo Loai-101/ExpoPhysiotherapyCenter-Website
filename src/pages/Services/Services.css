@@ -271,6 +271,8 @@
 @media (max-width: 767px) {
   .services-hero {
     min-height: 50vh;
+    margin-top: -70px !important;
+    padding-top: 70px !important;
   }
   
   .services-hero-container {
