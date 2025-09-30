@@ -754,6 +754,10 @@
 @media (min-width: 768px) and (max-width: 1366px) {
   .team-hero {
     min-height: 55vh;
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
   }
   
   .team-hero-title {
@@ -791,42 +795,6 @@
   }
 }
 
-/* Laptop specific fixes for Team Hero */
-@media (min-width: 1025px) and (max-width: 1366px) {
-  .team-hero-title {
-    font-size: 2.5rem !important;
-    line-height: 1.2 !important;
-    margin: 0 0 1rem 0 !important;
-  }
-  
-  .team-hero-description {
-    font-size: 1.1rem !important;
-    margin: 0 0 2rem 0 !important;
-    line-height: 1.5 !important;
-  }
-  
-  .team-hero-button-primary,
-  .team-hero-button-secondary {
-    padding: 0.9rem 1.8rem !important;
-    font-size: 1rem !important;
-    min-width: 170px !important;
-  }
-  
-  .team-hero-container {
-    padding-bottom: 3.5rem;
-  }
-  
-  .team-hero-social-icons {
-    gap: 0.9rem;
-    margin-top: 6.5rem;
-  }
-  
-  .team-hero-social-icon {
-    width: 48px;
-    height: 48px;
-    font-size: 1.15rem;
-  }
-}
 
 /* iPad specific fixes */
 @media (min-width: 768px) and (max-width: 1366px) {
