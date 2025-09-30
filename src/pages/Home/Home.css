@@ -865,8 +865,8 @@
   }
 }
 
-/* Very small mobile screens (iPhone SE, etc.) */
-@media (max-width: 320px) {
+/* Very small mobile screens (iPhone SE 375x667, etc.) */
+@media (max-width: 375px) {
   .hero-title {
     font-size: 0.45rem !important;
     line-height: 0.7 !important;
