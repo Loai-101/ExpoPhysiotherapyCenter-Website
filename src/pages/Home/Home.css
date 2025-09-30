@@ -710,8 +710,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero {
     min-height: 55vh !important;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
     width: 100% !important;
     display: flex !important;
     align-items: center !important;
