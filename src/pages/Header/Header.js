@@ -81,7 +81,7 @@ const Header = () => {
                 to="/"
                 className={`header-nav-link ${location.pathname === '/' ? 'header-nav-link-active' : ''}`}
               >
-                Home
+                {language === 'ar' ? 'الرئيسية' : 'Home'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -89,7 +89,7 @@ const Header = () => {
                 to="/services"
                 className={`header-nav-link ${location.pathname === '/services' ? 'header-nav-link-active' : ''}`}
               >
-                Services
+                {language === 'ar' ? 'الخدمات' : 'Services'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -97,7 +97,7 @@ const Header = () => {
                 to="/team"
                 className={`header-nav-link ${location.pathname === '/team' ? 'header-nav-link-active' : ''}`}
               >
-                Team
+                {language === 'ar' ? 'الفريق' : 'Team'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -105,7 +105,7 @@ const Header = () => {
                 to="/appointment"
                 className={`header-nav-link ${location.pathname === '/appointment' ? 'header-nav-link-active' : ''}`}
               >
-                Appointment
+                {language === 'ar' ? 'حجز موعد' : 'Appointment'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -113,7 +113,7 @@ const Header = () => {
                 to="/contact"
                 className={`header-nav-link ${location.pathname === '/contact' ? 'header-nav-link-active' : ''}`}
               >
-                Contact
+                {language === 'ar' ? 'اتصل بنا' : 'Contact'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -121,7 +121,7 @@ const Header = () => {
                 to="/faq"
                 className={`header-nav-link ${location.pathname === '/faq' ? 'header-nav-link-active' : ''}`}
               >
-                FAQ
+                {language === 'ar' ? 'الأسئلة الشائعة' : 'FAQ'}
               </Link>
             </li>
           </ul>
@@ -165,7 +165,7 @@ const Header = () => {
                 className={`header-nav-link ${location.pathname === '/' ? 'header-nav-link-active' : ''}`}
                 onClick={closeMobileMenu}
               >
-                Home
+                {language === 'ar' ? 'الرئيسية' : 'Home'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -174,7 +174,7 @@ const Header = () => {
                 className={`header-nav-link ${location.pathname === '/services' ? 'header-nav-link-active' : ''}`}
                 onClick={closeMobileMenu}
               >
-                Services
+                {language === 'ar' ? 'الخدمات' : 'Services'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -183,7 +183,7 @@ const Header = () => {
                 className={`header-nav-link ${location.pathname === '/team' ? 'header-nav-link-active' : ''}`}
                 onClick={closeMobileMenu}
               >
-                Team
+                {language === 'ar' ? 'الفريق' : 'Team'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -192,7 +192,7 @@ const Header = () => {
                 className={`header-nav-link ${location.pathname === '/appointment' ? 'header-nav-link-active' : ''}`}
                 onClick={closeMobileMenu}
               >
-                Appointment
+                {language === 'ar' ? 'حجز موعد' : 'Appointment'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -201,7 +201,7 @@ const Header = () => {
                 className={`header-nav-link ${location.pathname === '/contact' ? 'header-nav-link-active' : ''}`}
                 onClick={closeMobileMenu}
               >
-                Contact
+                {language === 'ar' ? 'اتصل بنا' : 'Contact'}
               </Link>
             </li>
             <li className="header-nav-item">
@@ -210,7 +210,7 @@ const Header = () => {
                 className={`header-nav-link ${location.pathname === '/faq' ? 'header-nav-link-active' : ''}`}
                 onClick={closeMobileMenu}
               >
-                FAQ
+                {language === 'ar' ? 'الأسئلة الشائعة' : 'FAQ'}
               </Link>
             </li>
           </ul>
