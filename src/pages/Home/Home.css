@@ -717,6 +717,8 @@
     justify-content: center !important;
     overflow: hidden !important;
     position: relative !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
   
   .hero-title {
@@ -748,6 +750,8 @@
     justify-content: center !important;
     overflow: hidden !important;
     position: relative !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
   
   .hero-title {

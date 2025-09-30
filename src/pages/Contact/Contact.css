@@ -529,6 +529,8 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .contact-hero {
     min-height: 55vh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
 }
 
@@ -536,6 +538,8 @@
 @media (min-width: 1024px) and (max-width: 1366px) {
   .contact-hero {
     min-height: 55vh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
   
   .contact-hero-container {
