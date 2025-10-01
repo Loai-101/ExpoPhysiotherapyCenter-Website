@@ -678,7 +678,7 @@ const Services = () => {
               }
             </p>
             <div className="services-hero-buttons">
-              <Link to="/contact" className="services-hero-button-primary">
+              <Link to="/appointment" className="services-hero-button-primary">
                 {currentLanguage === 'ar' ? 'احجز موعد' : 'Book Appointment'}
               </Link>
               <Link to="/team" className="services-hero-button-secondary">
@@ -719,7 +719,7 @@ const Services = () => {
               </a>
               
               <a 
-                href="https://www.tiktok.com"
+                href="https://www.tiktok.com/@expo.physiotherap"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="services-social-icon"

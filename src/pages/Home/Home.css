@@ -829,8 +829,8 @@
   }
   
   .hero-title {
-    font-size: 0.6rem !important;
-    line-height: 0.9 !important;
+    font-size: 0.5rem !important;
+    line-height: 0.8 !important;
     word-wrap: break-word !important;
     white-space: normal !important;
     max-width: 100% !important;
@@ -839,14 +839,14 @@
     width: 100% !important;
     text-align: center !important;
     letter-spacing: 0.05px !important;
-    margin: 0 0 0.2rem 0 !important;
+    margin: 0 0 0.15rem 0 !important;
     padding: 0 !important;
   }
   
   .hero-description {
-    font-size: 0.45rem !important;
-    margin: 0 0 0.4rem 0 !important;
-    line-height: 1.0 !important;
+    font-size: 0.4rem !important;
+    margin: 0 0 0.3rem 0 !important;
+    line-height: 0.9 !important;
   }
   
   .hero-buttons {
@@ -861,7 +861,7 @@
   .hero-button {
     padding: 0.15rem 0.3rem !important;
     font-size: 0.4rem !important;
-    min-width: 50px !important;
+    min-width: 45px !important;
   }
 }
 
@@ -873,15 +873,15 @@
   }
   
   .hero-title {
-    font-size: 0.6rem !important;
-    line-height: 0.8 !important;
-    margin: 0 0 0.2rem 0 !important;
+    font-size: 0.45rem !important;
+    line-height: 0.7 !important;
+    margin: 0 0 0.15rem 0 !important;
   }
   
   .hero-description {
-    font-size: 0.5rem !important;
-    margin: 0 0 0.3rem 0 !important;
-    line-height: 0.9 !important;
+    font-size: 0.35rem !important;
+    margin: 0 0 0.25rem 0 !important;
+    line-height: 0.8 !important;
   }
   
   .hero-buttons {
@@ -894,9 +894,9 @@
   }
   
   .hero-button {
-    padding: 0.15rem 0.3rem !important;
-    font-size: 0.45rem !important;
-    min-width: 40px !important;
+    padding: 0.12rem 0.25rem !important;
+    font-size: 0.35rem !important;
+    min-width: 35px !important;
   }
 }
 
@@ -908,15 +908,15 @@
   }
   
   .hero-title {
-    font-size: 0.55rem !important;
-    line-height: 0.75 !important;
-    margin: 0 0 0.15rem 0 !important;
+    font-size: 0.4rem !important;
+    line-height: 0.65 !important;
+    margin: 0 0 0.1rem 0 !important;
   }
   
   .hero-description {
-    font-size: 0.45rem !important;
-    margin: 0 0 0.25rem 0 !important;
-    line-height: 0.8 !important;
+    font-size: 0.3rem !important;
+    margin: 0 0 0.2rem 0 !important;
+    line-height: 0.75 !important;
   }
   
   .hero-buttons {
@@ -929,9 +929,9 @@
   }
   
   .hero-button {
-    padding: 0.12rem 0.25rem !important;
-    font-size: 0.4rem !important;
-    min-width: 35px !important;
+    padding: 0.08rem 0.15rem !important;
+    font-size: 0.3rem !important;
+    min-width: 25px !important;
   }
 }
 
@@ -950,8 +950,8 @@
   }
   
   .hero-title {
-    font-size: 0.7rem !important;
-    line-height: 0.9 !important;
+    font-size: 0.6rem !important;
+    line-height: 0.8 !important;
     word-wrap: break-word !important;
     white-space: normal !important;
     max-width: 100% !important;
@@ -960,14 +960,14 @@
     width: 100% !important;
     text-align: center !important;
     letter-spacing: 0.05px !important;
-    margin: 0 0 0.3rem 0 !important;
+    margin: 0 0 0.2rem 0 !important;
     padding: 0 !important;
   }
   
   .hero-description {
-    font-size: 0.6rem !important;
-    margin: 0 0 0.4rem 0 !important;
-    line-height: 0.9 !important;
+    font-size: 0.5rem !important;
+    margin: 0 0 0.3rem 0 !important;
+    line-height: 0.8 !important;
   }
   
   .hero-buttons {
@@ -1003,9 +1003,9 @@
   }
   
   .hero-button {
-    padding: 0.7rem 1.2rem !important;
-    font-size: 0.9rem !important;
-    min-width: 140px !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 0.7rem !important;
+    min-width: 120px !important;
   }
   
   .hero-social-icons {
@@ -1116,23 +1116,23 @@
 /* Extra small mobile devices */
 @media (max-width: 480px) {
   .hero-title {
-    font-size: 1.2rem !important;
-    line-height: 1.2 !important;
-    padding: 0 0.3rem !important;
+    font-size: 0.5rem !important;
+    line-height: 1.1 !important;
+    padding: 0 0.2rem !important;
     display: block !important;
     width: 100% !important;
     text-align: center !important;
-    letter-spacing: 0.1px !important;
-    margin: 0 0 0.6rem 0 !important;
+    letter-spacing: 0.05px !important;
+    margin: 0 0 0.4rem 0 !important;
     word-wrap: break-word !important;
     white-space: normal !important;
     overflow: visible !important;
   }
   
   .hero-description {
-    font-size: 0.8rem !important;
-    margin: 0 0 1.2rem 0 !important;
-    line-height: 1.3 !important;
+    font-size: 0.6rem !important;
+    margin: 0 0 0.8rem 0 !important;
+    line-height: 1.2 !important;
   }
   
   .hero-button {

@@ -15,6 +15,7 @@ const Appointment = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', or null
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false);
 
   const content = {
     en: {
@@ -188,6 +189,7 @@ const Appointment = () => {
 
       if (response.ok) {
         setSubmitStatus('success');
+        setShowSuccessPopup(true);
         
         // Reset form after successful submission
         setFormData({
@@ -404,6 +406,42 @@ const Appointment = () => {
           </div>
         </div>
       </section>
+
+      {/* Success Popup Modal */}
+      {showSuccessPopup && (
+        <div className="success-popup-overlay" onClick={() => setShowSuccessPopup(false)}>
+          <div className="success-popup" onClick={(e) => e.stopPropagation()}>
+            <button 
+              className="success-popup-close" 
+              onClick={() => setShowSuccessPopup(false)}
+            >
+              ×
+            </button>
+            <div className="success-popup-content">
+              <div className="success-popup-icon">
+                <span className="success-checkmark">✓</span>
+              </div>
+              <h3 className="success-popup-title">
+                {language === 'ar' ? 'تم إرسال طلب الموعد بنجاح!' : 'Appointment Request Sent Successfully!'}
+              </h3>
+              <p className="success-popup-message">
+                {language === 'ar' 
+                  ? 'شكراً لك! تم إرسال طلب الموعد بنجاح. سنتواصل معك خلال 24 ساعة لتأكيد الموعد.'
+                  : 'Thank you! Your appointment request has been sent successfully. We will contact you within 24 hours to confirm your appointment.'
+                }
+              </p>
+              <div className="success-popup-buttons">
+                <button 
+                  className="success-popup-button"
+                  onClick={() => setShowSuccessPopup(false)}
+                >
+                  {language === 'ar' ? 'حسناً' : 'OK'}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

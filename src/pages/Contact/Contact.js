@@ -173,7 +173,7 @@ const Contact = () => {
               </a>
               
               <a 
-                href="https://www.tiktok.com"
+                href="https://www.tiktok.com/@expo.physiotherap"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-social-icon"

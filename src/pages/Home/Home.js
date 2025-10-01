@@ -159,7 +159,7 @@ const Home = () => {
               <Link to="/services" className="hero-button hero-button-primary">
                 {content[language].ourServices}
               </Link>
-              <Link to="/contact" className="hero-button hero-button-secondary">
+              <Link to="/appointment" className="hero-button hero-button-secondary">
                 {content[language].bookAppointment}
               </Link>
             </div>
@@ -197,7 +197,7 @@ const Home = () => {
               </a>
               
               <a 
-                href="https://www.tiktok.com"
+                href="https://www.tiktok.com/@expo.physiotherap"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hero-social-icon"

@@ -16,7 +16,7 @@ const Footer = () => {
         { text: "Home Page", to: "/" },
         { text: "About Us", to: "/about" },
         { text: "Our Services", to: "/services" },
-        { text: "Book an Appointment", to: "/contact" },
+        { text: "Book an Appointment", to: "/appointment" },
         { text: "Contact Us", to: "/contact" },
         { text: "Our Medical Team", to: "/team" },
         { text: "FAQs (Frequently Asked Questions)", to: "/faq" }
@@ -58,7 +58,7 @@ const Footer = () => {
         { text: "الصفحة الرئيسية", to: "/" },
         { text: "من نحن", to: "/about" },
         { text: "خدماتنا", to: "/services" },
-        { text: "احجز موعد", to: "/contact" },
+        { text: "احجز موعد", to: "/appointment" },
         { text: "تواصل معنا", to: "/contact" },
         { text: "فريقنا الطبي", to: "/team" },
         { text: "الأسئلة الشائعة", to: "/faq" }
